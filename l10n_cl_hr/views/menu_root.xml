@@ -45,7 +45,7 @@
 		<field name="parent_id" ref="hr_payroll.menu_hr_payroll_root" />
 	</record>
 
-	<record id="hr_work_entry_contract_enterprise."menu_hr_payroll_work_entries_root" model="ir.ui.menu">
+	<record id="hr_work_entry_contract_enterprise.menu_hr_payroll_work_entries_root" model="ir.ui.menu">
 		<field name="parent_id" ref="hr_payroll.menu_hr_payroll_root" />
 	</record>
 
