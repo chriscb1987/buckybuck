@@ -36,8 +36,10 @@
 	<record id="hr_payroll.menu_hr_payroll_employee_payslips_to_pay" model="ir.ui.menu">
 		<field name="parent_id" ref="menu_cl_hr_payroll_base" />
 	</record>
-
 	<record id="hr_payroll.menu_hr_payslip_run" model="ir.ui.menu">
+		<field name="parent_id" ref="menu_cl_hr_payroll_base" />
+	</record>
+	<record id="hr_payroll.menu_hr_payroll_payslips" model="ir.ui.menu">
 		<field name="parent_id" ref="menu_cl_hr_payroll_base" />
 	</record>
 
@@ -57,9 +59,7 @@
 		<field name="parent_id" ref="hr_payroll.menu_hr_payroll_root" />
 	</record>
 
-	<record id="hr_payroll.menu_hr_payroll_payslips" model="ir.ui.menu">
-		<field name="parent_id" ref="l10n_cl_hr.menu_cl_hr_payroll_base" />
-	</record>
+
 
 
 	<!-- Menu DATOS MAESTROS -->
