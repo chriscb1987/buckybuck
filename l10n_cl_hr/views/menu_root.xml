@@ -58,7 +58,7 @@
 	</record>
 
 	<record id="hr_payroll.menu_hr_payroll_payslips" model="ir.ui.menu">
-		<field name="parent_id" ref="menu_cl_hr_payroll_base" />
+		<field name="parent_id" ref="l10n_cl_hr.menu_cl_hr_payroll_base" />
 	</record>
 
 
