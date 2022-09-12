@@ -53,8 +53,8 @@
 		<field name="parent_id" ref="hr_payroll.menu_hr_payroll_root" />
 	</record>
 
-	<record id="hr_payroll.menu_report_payroll" model="ir.ui.menu">
-		<field name="parent_id" ref="hr_payroll.menu_hr_payroll_report" />
+	<record id="hr_payroll.menu_hr_payroll_report" model="ir.ui.menu">
+		<field name="parent_id" ref="hr_payroll.menu_hr_payroll_root" />
 	</record>
 
 	<!-- Menu DATOS MAESTROS -->
