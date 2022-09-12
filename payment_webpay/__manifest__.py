@@ -15,7 +15,7 @@
         'external_dependencies': {
             'python':[
                 'urllib3',
-                'transbank-sdk',
+                'transbank-sdk'
         ],
     },
     'data': [
