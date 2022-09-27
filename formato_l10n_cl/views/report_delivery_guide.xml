@@ -6,7 +6,6 @@
         <t t-foreach="docs" t-as="o">
             <t t-set="lang" t-value="o.partner_id.lang"/>
 	    <t t-call="web.basic_layout" t-lang="lang">
-
 		<t t-set="prepared_amounts" t-value="o._prepare_pdf_values()"/>
                 <t t-set="has_unit_price" t-value="prepared_amounts['has_unit_price']"/>
 		<t t-set="report_date"        t-value="context_timestamp(datetime.datetime.now()).strftime('%Y-%m-%d')"/>
