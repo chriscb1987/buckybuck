@@ -51,7 +51,7 @@
                       <tr>
                       	  <td><span t-field="o.contract_id.department_id" /></td>
                           <td><span t-field="o.contract_id.job_id"/></td>
-                          <td><span t-field="o.contract_id.type_id"/></td>
+                          <td><span t-field="o.contract_id.contract_type_id"/></td>
                           <td><span t-esc="o.contract_id.analytic_account_id.code or '001'" class="float-right"/></td>
                       </tr>
                     </tbody>
@@ -125,6 +125,9 @@
                         <t t-set="f" t-value="0"/>
                         <t t-foreach="o.worked_days_line_ids" t-as="p">
                           <t t-if="('WORK100' == p.code)">
+                            <t t-set= "f" t-value="f+p.number_of_days"/>
+                          </t>
+                          <t t-if="('FEST' == p.code)">
                             <t t-set= "f" t-value="f+p.number_of_days"/>
                           </t>
                         </t>

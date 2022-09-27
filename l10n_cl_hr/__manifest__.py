@@ -1,7 +1,7 @@
 {
     'name': 'Chilean Payroll & Human Resources',
-    'author': 'Konos',
-    'website': 'http://konos.cl',
+    'author': 'Vanguardchile',
+    'website': 'http://www.vanguardchile.cl',
     'license': 'AGPL-3',
     'depends': [
             'hr_payroll',
@@ -14,29 +14,16 @@
                 ]
         },
     'contributors': [
-        "Nelson Ramirez <info@konos.cl>",
-        "Daniel Blanco Martin <daniel@blancomartin.com>",
-        "Carlos Lopez Mite <celm1990@hotmail.com>",
-        "Daniel Santibáñez Polanco <dsantibanez@globalresponse.cl>",
+        "Vanguardchile",
+        "KONOS",
     ],
     'license': 'AGPL-3',
-    'version': '12.0.1.0.4',
+    'version': '15.0.1.0.2',
     'description': """
 Chilean Payroll & Human Resources.
 ==================================
     -Payroll configuration for Chile localization.
-    -All contributions rules for Chile payslip.
-    * Employee Basic Info
-    * Employee Contracts
-    * Attendance, Holidays and Sick Licence
-    * Employee PaySlip
-    * Allowances / Deductions / Company Inputs
-    * Extra Time
-    * Pention Chilean Indicators
-    * Payroll Books
-    * Previred Plain Text
-    , ...
-    Report
+    Basado en versión KONOS
   """,
     'category': 'Localization/Chile',
     'data': [
@@ -53,6 +40,8 @@ Chilean Payroll & Human Resources.
         'views/hr_salary_books.xml',
         'views/hr_holiday_views.xml',
         'views/wizard_export_csv_previred_view.xml',
+        'views/hr_payslip_input_type.xml',
+        #'data/hr_work_entry.xml',
         'data/hr_salary_rule_category.xml',
         'data/hr_centros_costos.xml',
         'data/l10n_cl_hr_indicadores.xml',

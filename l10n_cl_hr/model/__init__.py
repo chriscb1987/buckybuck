@@ -1,4 +1,5 @@
 from . import hr_employee
+from . import hr_cl_parameters
 from . import hr_payslip
 from . import hr_afp
 from . import hr_contract_type
@@ -14,3 +15,4 @@ from . import hr_contract
 from . import hr_seguro_complementario
 from . import hr_holidays
 from . import hr_apv
+from . import hr_payslip_input_type
