@@ -128,7 +128,7 @@
 		        </t>
 			-->
                         <span t-if="header_address.website">
-                            <span t-esc="' - '.join([item for item in [header_address.email,header_address.website.replace('https://', '').replace('http://', '')] if item])"/>
+				<span>- </span><span t-esc="' - '.join([item for item in [header_address.email,header_address.website.replace('https://', '').replace('http://', '')] if item])"/>
                         </span>
 	            </div>
 		    <!--
