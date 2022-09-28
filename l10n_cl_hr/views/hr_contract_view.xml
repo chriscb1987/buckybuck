@@ -6,6 +6,7 @@
 		<field name="model">hr.contract</field>
 		<field name="inherit_id" ref="hr_contract.hr_contract_view_form" />
 		<field name="arch" type="xml">
+
 			<xpath expr="//div[@name='wage']" position="after">
 				<field name="otros_imp" string="Otros Imponible" invisible="1" />
 				<field name="otro_no_imp" string="Otros No Imponible"
@@ -31,9 +32,11 @@
 					<field name="gratificacion_legal" string="Gratificación Manual"/>
 				</div>
 			</xpath>
+<!--
 			<xpath expr="//field[@name='contract_type_id']" position="replace">
 				<field name="contract_type_id" select="3" />
 			</xpath>
+-->
 			<!-- Este campo depende del cliente, puede agregarse o no
 			<xpath expr="//field[@name='journal_id']" position="replace">
 				<field name="journal_id" select="payroll_journal" />
